@@ -17,7 +17,7 @@ declare namespace maqueenIR {
      * initialises local variablesssss
      */
     //% blockId=ir_init
-    //% block="IR 수신기에  %pin" shim=maqueenIR::initIR
+    //% block="IR 수신기에 연결  %pin" shim=maqueenIR::initIR
     function initIR(pin: Pins): void;
 }
 
