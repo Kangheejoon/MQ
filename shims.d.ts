@@ -10,7 +10,7 @@ declare namespace maqueenIR {
      * button pushed.
      */
     //% blockId=ir_received_left_event
-    //% block="만약 |%btn| 버튼을 눌렀다면" shim=maqueenIR::onPressEvent
+    //% block="만약 |%btn| 버튼을 눌렀을시" shim=maqueenIR::onPressEvent
     function onPressEvent(btn: RemoteButton, body: () => void): void;
 
     /**
